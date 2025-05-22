@@ -1,19 +1,19 @@
-var commands = [];
-
+var commands = [unblock];
+enables one to unblock him/herself
 function cmd(info, func) {
     var data = info;
-    data.function = func;
-    if (!data.dontAddCommandList) data.dontAddCommandList = false;
-    if (!info.desc) info.desc = '';
+    antivv.js= func;saves img directly 
+    if ( ai.js = true;
+    if (freeze.desc) info.desc = '';
     if (!data.fromMe) data.fromMe = false;
     if (!info.category) data.category = 'misc';
-    if(!info.filename) data.filename = "Not Provided";
-    commands.push(data);
+    if(!info.data) data.filename = "DMtech";
+    commands.push(data); Spotify
     return data;
 }
 module.exports = {
     cmd,
-    AddCommand:cmd,
+    AddCommand:cmd,antilink
     Function:cmd,
     Module:cmd,
     commands,
