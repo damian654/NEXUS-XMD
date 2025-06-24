@@ -11,7 +11,7 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "+254704404695.",
       "required": true,
       "value": ""
     },  
